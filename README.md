@@ -41,9 +41,6 @@ Para poner a funcionar la aplicación sigue los siguientes pasos:
     docker-compose exec app php artisan key:generate
     ```
 
-    ```sh
-    docker-compose exec app php artisan key:generate
-    ```
 
   
 
