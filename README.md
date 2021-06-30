@@ -23,19 +23,13 @@ Para poner a funcionar la aplicación sigue los siguientes pasos:
     composer install
     ```
 
-4. Construye la imagen de docker
-
-    ```sh
-    docker-compose build-app
-    ```
-
-5. Arranca los contenedores de la aplicación
+4. Arranca los contenedores de la aplicación
 
     ```sh
     docker-compose up -d
     ```
 
-6. Genera la clave de la aplicación
+5. Genera la clave de la aplicación
 
     ```sh
     docker-compose exec app php artisan key:generate
